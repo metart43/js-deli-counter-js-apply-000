@@ -1,9 +1,6 @@
 var deliCounter = new Array();
 function takeANumber (line) {
   return(`'You are a number' ${line++}`);
-} else {
-
-}
 }
 
 takeANumber(deliCounter);
