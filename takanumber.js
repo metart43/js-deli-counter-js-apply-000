@@ -1,5 +1,6 @@
 var deliCounter = new Array();
 function takeANumber (line) {
+  var i
 while (i > line.lenghts){
   i++
   deliCounter.push(i)
