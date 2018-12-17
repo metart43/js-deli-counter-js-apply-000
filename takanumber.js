@@ -1,7 +1,9 @@
 var deliCounter = new Array();
-deliCounter = ["artem"]
 function takeANumber (line) {
-  console.log(deliCounter);
+  for (var i = 0; i < line.length; i++) {
+    line[i]
+  }
+  console.log(line);
 }
 
 takeANumber(deliCounter);
