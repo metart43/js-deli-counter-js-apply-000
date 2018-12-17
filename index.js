@@ -1,3 +1,4 @@
+var line = new Array();
 function takeANumber(line, name) {
   line.push(name)//adds & appnds & handles
  return "Welcome, " + name + ". You are number " + line.length + " in line."//rtrns
@@ -7,7 +8,7 @@ function nowServing (line){
   var i = 0;// index
   if (line.length === 0) { //checking
       return "There is nobody waiting to be served!"// no one
-  } else if (line.length > 0) {
+  } else {
         newline = line.shift(i)// literally guessed. assigned a new value since previous return methid didn't work for me
         return "Currently serving "  + newline + "."; //mssg person
       }
