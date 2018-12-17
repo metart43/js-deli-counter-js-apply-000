@@ -1,6 +1,6 @@
 var deliCounter = new Array();
 function takeANumber (line) {
-  console.log(taking a number);
+  console.log('taking a number');
 }
 
 takeANumber(deliCounter);
