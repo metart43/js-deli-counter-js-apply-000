@@ -1,7 +1,7 @@
 var deliCounter = new Array();
 function takeANumber (line) {
   deliCounter.push(1)
-  console.log(`'You are a number' ${line}`);
+  console.log(`'You are a number' ${line + 1}`);
 }
 
 takeANumber(deliCounter);
