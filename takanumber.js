@@ -1,6 +1,6 @@
 var deliCounter = new Array();
 function takeANumber (line) {
-  deliCounter.push(1)
+  deliCounter.push(2)
   console.log(`'You are a number' ${line}`);
 }
 
