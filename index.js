@@ -4,7 +4,7 @@ function takeANumber(line, name) {
  return "Welcome, " + name + ". You are number " + line.length + " in line."//rtrns
 }
 function nowServing (line){
-  var newline = new Array ();//creating array to store the person who is beong served
+  var newline = ""//creating array to store the person who is beong served
   var i = 0;// index
   if (line.length === 0) { //checking
       return "There is nobody waiting to be served!"// no one
